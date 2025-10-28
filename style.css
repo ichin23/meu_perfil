@@ -76,6 +76,11 @@ li{
     font-size: 20px;
 }
 
+li>a{
+    text-decoration: none;
+    color: #62924c;
+}
+
 .details{
     margin: 30px 5px;
 }
@@ -84,6 +89,11 @@ li{
     color: #9699B0;
 }
 
+#programacao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 @media (max-width: 900px) {
 
