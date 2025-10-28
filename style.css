@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    text-align: justify;
 }
 
 body{
@@ -49,8 +50,10 @@ main{
 }
 
 #profilePic{
-    height: 400px;
-    width: 400px;
+    height: 80vw;
+    width: 80vw;
+    max-width: 400px;
+    max-height: 400px;
     object-fit: cover;
     border-radius: 100px;
     margin-right: 50px;
@@ -79,4 +82,16 @@ li{
 
 .details>h2{
     color: #9699B0;
+}
+
+
+@media (max-width: 900px) {
+
+    #profilePic{
+        margin: 0;
+    }
+
+    #content{
+        max-width: 80vw;
+    }
 }
